@@ -1,0 +1,162 @@
+
+body {
+	background-color: #f7f7f7;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+#banner {
+	margin-top: 30px;
+	padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    text-align: center;
+    /*background-color: #f9f9f9;*/
+}
+
+#name {
+	font-size: 50px;
+}
+
+#aboutme {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#twitterfeed {
+	text-align: center;
+}
+
+#projects {
+	margin-top: 30px;
+}
+
+/* download cv button properties */
+.cv-pad {
+	padding-top: 30px;
+}
+.cv-size {
+	padding: 8px 20px;
+  	font-size: 18px;
+}
+
+.section {
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*testing*/
+/*div.section {
+    margin: 5px;
+	background-color: #f9f9f9;
+}*/
+
+/*================= Section Headers ================= */
+
+.section-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.section-header:after {
+	background-color: #bfbfbf;
+	content: '\a0';
+	flex-grow: 5;
+	height: 2px;
+	position: relative;
+	top: 0.65em;
+	margin-left: 15px;
+}
+
+/*================= Social Icons ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 9px; /*distancia entre icons*/
+}
+/*
+.social-network a.icoGitHub {
+	background-color: #333;
+}
+.social-network a.icoFacebook {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+	background-color:#1DA1F2;
+}
+.social-network a.icoLastfm {
+	background-color:#C3000D;
+}*/
+
+/*cor do botao durante hover*/
+
+.social-network a.icoGitHub:hover {
+	background-color: #333;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#1DA1F2;
+}
+.social-network a.icoLastfm:hover {
+	background-color:#C3000D;
+}
+.social-network a.icoMail:hover {
+	background-color:#ffae00;
+}
+
+/*cor do icon*/
+.social-network a.icoGitHub:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoLastfm:hover i,
+.social-network a.icoMail:hover i {
+	color:#fff;
+}
+/*a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}*/
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:150%;
+	-webkit-border-radius:15%;
+	border-radius:15%;
+	text-align:center;
+	width: 40px;
+	height: 40px;
+	font-size:25px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:45px;
+	text-align: center;
+}
+
+.social-circle i {
+	color: #fff;
+}
+
+a.dark-bg {
+	/*background-color: #D3D3D3;*/
+	background-color: #1c1b1b;
+	transition: background-color 0.05s linear;
+}
