@@ -49,6 +49,10 @@ body {
     padding-left: 10px;
 }
 
+.avatar {
+	border-radius: 200px;
+}
+
 /*testing*/
 /*div.section {
     margin: 5px;
